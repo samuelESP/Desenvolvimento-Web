@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Div e Span</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			#topo {
+				background: blue;
+			}
+			
+			#conteudo {
+				background: red;
+			}
+
+			#rodape {
+				background: green;
+			}
+
+			.produto {
+				background: gray;
+				margin: 10px;
+			}
+
+			.azul{
+				color: blue;
+			}
+
+			.bordar{
+				margin-top: 20px;
+			}
+			.border1{
+				border: none;
+			}
+			.border2{
+				border: 4px dotted black;
+			}
+			.border3{
+				border: 4px dashed black;
+			}
+			.border4{
+				border: 4px solid black;
+			}
+			.border5{
+				border: 4px double black;
+			}
+			.border6{
+				border: 4px groove black;
+			}
+			.border7{
+				border: 4px ridge black;
+			}
+			.border8{
+				border-color: red black blue violet;
+				border-width: 1px 2px 5px 10px;
+				border-style: dashed dotted solid ridge;
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<div id="topo">
+			
+			<img src="imagens/amazon.png" width="200">
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contato</li>
+			</ul>
+
+		</div>
+
+		<div id="conteudo">
+			
+			<div class="produto">
+				Produto 1
+			</div>
+
+			<div class="produto">
+				Produto 2
+			</div>
+
+			<div class="produto">
+				Produto 3
+			</div>
+
+		</div>
+
+		<div id="rodape">
+			
+			Todos os <span class="azul"> direitos</span> reservados
+
+		</div>
+
+		<div class="bordar">
+			<span class="border1">None</span>
+			<span class="border2">dotted</span>
+			<span class="border3">dashed</span>
+			<span class="border4">solid</span>
+			<span class="border5">double</span>
+			<span class="border6">groove</span>
+			<span class="border7">ridge</span>
+			<span class="border8">mesclada</span>
+		</div>
+	</body>
+</html>
