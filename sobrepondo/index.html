@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteudo1{
+            border: 1px solid red;
+            background: orange;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 2;
+        }
+        .conteudo2{
+            border: 1px solid red;
+            background: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+        }
+        .p{
+            position: absolute;
+            top: 300px;
+        }
+        .conteudo3{
+            border: 1px solid red;
+            background: yellow;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 120px;
+            left: 140px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <p class="conteudo1">Conteudo 1</p>
+    <p class="conteudo2">Conteudo 2</p>
+    <p class="conteudo3">Conteudo 3</p>
+    <p class="p">Por padrão o conteudo 2 aparece por cima do conteudo 1, pois, o conteudo 2 é escrito depois do conteudo 1, e ambos estão com position absolute <br><strong>Porém, existe um propriedade chamada z-index que faz com que eu posso manipular essa ordem</strong></p>
+</body>
+</html>
