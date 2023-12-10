@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        a:link{
-            color: #0be130;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Estilo padrão para links não visitados */
+    a {
+      color: blue;
+      text-decoration: none; /* Remova o sublinhado padrão */
+    }
+
+    /* Estilo para links visitados */
+    a:visited {
+      color: purple;
+    }
+    /*Passa o mouse encima do link*/
+    a:hover{
+        color: violet;
+    }
+
+    /*Clica emcima do link ele ativa*/
+    a:active{
+        color: rgba(32, 211, 26, 0.671);
+    }
+
+    .teste:hover{
+        background: violet;
+        color: #FFF;
+    }
+  </style>
+  <title>Link Visitado</title>
 </head>
 <body>
-    <a href="https://www.linkedin.com/in/samuel-espindo-la/">Linkedin | </a>
-    <a href="https://twitter.com/SamuelBraSam">Twitter | </a>
-    <a href="https://www.hltv.org/">HLTV</a>
+
+    <p><a href="https://www.example.com">Link para Example.com</a></p>
+    <p><a href="https://www.exampl1e.com">Link para Example2.com</a></p>
+    <p><a href="https://www.example2.com" class="teste">Link para Example3.com</a></p>
+    
 </body>
 </html>
