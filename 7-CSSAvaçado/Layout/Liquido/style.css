@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif, cursive;
+    background: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.marca{
+    height: 100px;
+    background: #9e9e9e;
+    line-height: 100px;
+    text-align: center;
+}
+
+.conteudo{
+    width: 75%;
+    background-color: aqua;
+    float: right;
+}
+.conteudo1{
+   background-color: bisque;
+   width: 70%;
+   float: left;
+}
+.conteudo2{
+    background-color: red;
+    width: 30%;
+    float: right;
+} 
+
+.navegacao{
+    width: 25%;
+    padding: 10px 0;
+    background: #d1d1d1;
+    float: left;
+}
+
+footer{
+    clear: both;
+    background: #72727244;
+    padding: 5px;
+}
