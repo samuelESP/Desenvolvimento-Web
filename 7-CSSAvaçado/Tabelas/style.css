@@ -1,0 +1,33 @@
+body{
+    font-family: cursive, sans-serif;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td{
+    
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado{
+    background: #efefef;
+}
+
+.numero{
+    text-align: right;
+}
+
+tr:hover{
+    background: #c3e5e5;
+}
