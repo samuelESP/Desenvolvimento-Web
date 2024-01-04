@@ -1,0 +1,27 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset{
+    padding: 1em 0.5em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    cursor: pointer;
+    display: block;
+}
+/* input[type="text"] quer dizer que essa estilização so vai acontecer nos tipos de texto, chamamos isso de seletor de atributo */
+input[type="text"]{
+    width: 300px;
+}
+
+textarea{
+    width: 40em;
+    height: 10em;
+}
