@@ -1,0 +1,42 @@
+html, body{
+    text-align: center;
+    height: 100%;
+}
+
+#caixas {
+    font-size: 0; 
+    height: 100%; 
+}
+
+.c1, .c2, .c3, .c4 , .c5, .c6 {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000; 
+    padding: 10px; 
+    margin: 10px; 
+    font-size: 46px; 
+}
+
+.c1{
+    background-color: #e71010;
+    border-radius: 20px;
+}
+.c2{
+    background-color: #10e72d;
+    border-radius: 30%;
+}
+.c3{
+    background-color: #1037e7;
+   border-radius: 25px 50% 20rem 10px;
+}
+
+.c4{
+    background-color: #e71010;
+    box-sizing: unset;
+}
+.c5{
+    background-color: #10e72d;
+    box-sizing: border-box;
+    /* Independente do Padding, ele vai ter a largura padrão definida antes, ou seja, ele via ignoar meu padding */
+}
