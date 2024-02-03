@@ -1,0 +1,40 @@
+
+.c1,.c2,.c3, .c4, .c5{
+    width:200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 30px;
+}
+
+.c5{
+    background: radial-gradient(red, green, yellow);
+}
+
+/* Sombra */
+
+
+.c2{
+    background-color: rgba(27, 27, 27, 0.2);
+    font-size: 20px;
+    text-shadow: 20px 20px white;
+}
+
+.c3{
+    background-color: rgba(27, 27, 27, 0.2);
+    text-shadow: -20px 20px white;
+}
+.c3{
+    background-color: rgba(12, 245, 90, 0.2);
+    text-shadow: 20px 0px white;
+}
+
+.c4{
+    color: white;
+    background-color: rgba(29, 211, 69, 0.2);
+    text-shadow: 20px 10px 3px black;
+}
+
+.c5{
+    box-shadow: 0px 0px 3px 10px black;
+    /* Horizontal vertical blur e spread */
+}
