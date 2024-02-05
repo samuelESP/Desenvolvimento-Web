@@ -1,0 +1,48 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: #18e466;
+    /* Nome da animção */
+    animation-name: animacao-caixa;
+    /* Duração da Animação */
+    animation-duration: 1s;
+    /* tempo para a animação começar */
+    animation-delay: 2s;
+    /* Quantas vezes vai executar */
+    animation-iteration-count: 3;
+    /* Vai definir como a animação via aconter, pode ser reverso, de forma alternada e etc */
+    animation-direction: alternate;/*Nesse caso ele via começar quadrado, depois vai virar redondo e depois de tudo ele vai virar quadrado denovo, ou seja, vai animar 3 vezes de forma alternada*/
+}
+
+/* Resumo de todas essas propriedades:
+    animation: 1s 2s 3 alternate;
+*/
+/* Estrutura da animation 
+
+
+@keyframe _NomeDaAnimação_{
+    from{}
+    to{}
+
+
+*/
+
+
+@keyframes animacao-caixa{
+    from{
+        background-color: #18e466;
+        border-radius: 0%;
+        top: 0;
+        left: 0;
+    }
+    to{
+        background-color: #8a2be2;
+        border-radius: 50%;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+/* No caso acima ele vai animar bem no momento em que eu recarregar a pagina */
+
