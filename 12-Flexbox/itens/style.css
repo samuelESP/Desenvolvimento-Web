@@ -1,0 +1,62 @@
+
+body ,#conteudo{
+    height: 100%;
+    background-color: #c2c1c1;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+#conteudo{
+    display: flex;
+}
+/* Vai modificar a ordem dos meus elementos */
+.item1{
+    order: 4;
+}
+.item2{
+    order: 3;
+}
+.item3{
+    order: 2;
+}
+.item4{
+    order: 1;
+}
+/* Se um item tiver a mesma posição que o outro, ele vai respeitar a ordem de entrada da tag no html entre eles */
+
+/* Vai definir a proporção que o item vai crescer */
+
+.item5{
+    flex-grow: 1;
+}
+.item7{
+    flex-grow: 2;
+}
+
+/* Vai definir a proporção que o item pode reduzir */
+
+.item12{
+    flex-shrink: 1;
+}
+.item9{
+    flex-shrink: 2;
+}
+
+.item11{
+    flex-shrink: 5;
+}
+.shrink{
+    width: 300px;
+}
+
+/* indica o tamanho inicial do flex antes da distribuição do mesmo */
+
+.item13{
+    flex-basis: 300px;
+}

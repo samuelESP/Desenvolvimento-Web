@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            background-color: #acacac;
+            height: 130px;
+        }
+
+        .caixas{
+            background: #fff;
+            border: 1px solid #000;
+            margin: 2PX;
+        }
+
+        #direction{
+            display: flex;
+            flex-direction: row-reverse;
+            /* row, row-reverse, column, column-reverse */
+        }
+        
+        #wrap{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            /* wrap, wrap-reverse, nowrap*/
+        }
+        .caixaWrap{
+            width: 40%;
+        }
+
+        #justify1{
+            display: flex;
+            justify-content: center;
+        }
+        #justify2{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* center, end, right, start, right, space-around , space-between , space-evenly*/
+        }
+        #align{
+            height: 300px;
+            display: flex;
+            align-items: flex-start;
+            /* stretch, center, flex-start, flex-end, baseline */
+        }
+
+        /* Em geral o justify é usado para organizar o meu conteudo dentro da div em relação a mesma
+        já o align é usado em relação aos itens, ou seja, com o justify eu consigo me localizar aonde colocar os meus itens
+        e com o align eu consigo fazer esses items se modificarem */
+
+        #center{
+            display: flex;
+            justify-content: center;
+            /* Traçei uma linha horizontal e coloquei meus itens dentro dela */
+            align-items: center;
+            /* traçei uma linha nos proprios itens em seu padrão, e coloquei eles no meio */
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <H2>DIRECTION</H2>
+    <div id="direction" class="container">
+        <div class="caixas caixa1">Caixa 1</div>
+        <div class="caixas caixa2">Caixa 2</div>
+        <div class="caixas caixa3">Caixa 3</div>
+        <div class="caixas caixa4">Caixa 4</div>
+    </div>
+
+    <H2>Wrap</H2>
+    <div id="wrap" class="container">
+        <div class="caixas caixaWrap">Caixa 1</div>
+        <div class="caixas caixaWrap">Caixa 2</div>
+        <div class="caixas caixaWrap">Caixa 3</div>
+        <div class="caixas caixaWrap">Caixa 4</div>
+    </div>
+
+    <H2>justify-content1</H2>
+    <div id="justify1" class="container">
+        <div class="caixas caixaJustify">Caixa 1</div>
+        <div class="caixas caixaJustify">Caixa 2</div>
+        <div class="caixas caixaJustify">Caixa 3</div>
+        <div class="caixas caixaJustify">Caixa 4</div>
+    </div>
+    <H2>justify-content2</H2>
+    <div id="justify2" class="container">
+        <div class="caixas caixaJustify">Caixa 1</div>
+        <div class="caixas caixaJustify">Caixa 2</div>
+        <div class="caixas caixaJustify">Caixa 3</div>
+        <div class="caixas caixaJustify">Caixa 4</div>
+    </div>
+    <H2>align-itens</H2>
+    <div id="align" class="container">
+        <div class="caixas caixaAlign">Caixa 1</div>
+        <div class="caixas caixaAlign">Caixa 2</div>
+        <div class="caixas caixaAlign">Caixa 3</div>
+        <div class="caixas caixaAlign">Caixa 4</div>
+    </div>
+    <H2>Centralizar Div</H2>
+    <div id="center" class="container">
+        <div class="caixas centralizar">Caixa 1</div>
+        <div class="caixas centralizar">Caixa 2</div>
+        <div class="caixas centralizar">Caixa 3</div>
+        <div class="caixas centralizar">Caixa 4</div>
+    </div>
+</body>
+</html>
